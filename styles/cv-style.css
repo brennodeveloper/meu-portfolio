@@ -1,0 +1,7 @@
+embed {
+    left: 0;
+    position: fixed;
+    top: 0;
+    overflow-clip-margin: content-box !important;
+    overflow: clip !important;
+}
