@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- CSS -->
-     <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/style.css">
+     <link rel="stylesheet" href="/src/styles/reset.css">
+    <link rel="stylesheet" href="/src/styles/style.css">
 
     <!-- FAVICON DO SITE-->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
-    <link rel="manifest" href="assets/icons/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
 
     <!-- BIBLIOTECAS DE ICONS -->
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"/>
@@ -42,12 +42,12 @@
     <!-- HERO -->
     <section id="home" class="home"> 
         <div class="home-img">
-            <img src="assets/imgs/brenno-ia.png" alt="foto do brenno" class="perfil-img">
+            <img src="/assets/imgs/brenno-ia.png" alt="foto do brenno" class="perfil-img">
         </div>
         <div class="home-content">
             <h1>Olá, me chamo <span>Brenno</span></h1>
             <h3 class="typing-text">Eu sou <span></span></h3>
-            <p>
+            <p class="home-text"> 
                 Olá! Sou Brenno Souza, desenvolvedor full-stack focado em entregar 
                 soluções eficientes e de qualidade. Tenho experiência em front-end
                 e back-end, com paixão por aprender e aplicar novas tecnologias. 
@@ -56,12 +56,12 @@
                 reais e funcionais.
             </p>
             <div class="social-icons">
-                <a href="https://www.linkedin.com/in/brenno-modesto/"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/brennodeveloper"><i class="fa-brands fa-github"></i></a>
-                <a href="https://x.com/whathanz"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="https://www.instagram.com/brennoslow/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/brenno-modesto/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/brennodeveloper" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/whathanz" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/brennoslow/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             </div>
-            <a href="cv.html" target="_blank" class="btn"> Baixe meu CV </a> <!-- Botão de baixar curriculo -->
+            <a href="/src/cv.html" target="_blank" class="btn"> Baixe meu CV </a> <!-- Botão de baixar curriculo -->
         </div>
     </section>
 
@@ -71,34 +71,41 @@
             <h2>Projetos</h2>
             <div class="project-grid">
                 <div class="project-card">
-                    <img src="assets/imgs/card-project-1.png" alt="projeto calendario - tempo">
-                    <h3>Nome do projeto aqui</h3>
-                    <p>Descrição breve do projeto, oq vc fez, quais ferrramentas usou qual o problema e sua resolução</p>
+                    <img class="project-img" src="/assets/imgs/casaecarro.png" alt="projeto corretora de seguros">
+                    <h3>Carro e Casa - Corretora de Seguros</h3>
+                    <p>O site oferece uma interface simples para clientes 
+                    que buscam contratar seguros de forma prática e rápida. Minha 
+                    atuação envolveu o desenvolvimento completo do front-end 
+                    utilizando HTML5, CSS3, Tailwind e JavaScript.</p>
                     <div class="btn-project">
-                        <a href="#" class="btn">Ver projeto</a> <!-- aqui pode ser o link para o projeto ou para um preview que mostra mais detalhes -->
-                        <a href="#" class="btn">Ver código</a> <!--Link para o repositorio do github-->
+                        <a href="https://carroecasacorretora.com.br/" class="btn" target="_blank">Ver projeto</a> <!-- aqui pode ser o link para o projeto ou para um preview que mostra mais detalhes -->
+                        <a href="https://github.com/brennodeveloper/casaecarrocorretora" class="btn" target="_blank">Ver código</a> <!--Link para o repositorio do github-->
                     </div>
                 </div>
 
                 <div class="project-card">
-                    <img src="assets/imgs/card-project-2.png" alt="projeto blog">
-                    <h3>Nome do projeto aqui</h3>
-                    <p>Descrição breve do projeto, oq vc fez, quais ferrramentas usou qual o problema e sua resolução</p>
+                    <img class="project-img" src="/assets/imgs/to-do-js.png" alt="projeto to do list">
+                    <h3>To do list - Projeto pessoal</h3>
+                    <p>Um To-Do List simples feito com HTML, CSS e JavaScript puro.
+                    O usuário pode criar, marcar como concluídas e excluir tarefas. 
+                    O foco é o aprendizado de manipulação do DOM e lógica de 
+                    programação no front-end, sem uso de frameworks ou banco de dados.</p>
                     <div class="btn-project">
-                        <a href="#" class="btn">Ver projeto</a> <!-- aqui pode ser o link para o projeto ou para um preview que mostra mais detalhes -->
-                        <a href="#" class="btn">Ver código</a> <!--Link para o repositorio do github-->
+                        <a href="http://brennodeveloper.github.io/to-do-js/" class="btn" target="_blank">Ver projeto</a> <!-- aqui pode ser o link para o projeto ou para um preview que mostra mais detalhes -->
+                        <a href="https://github.com/brennodeveloper/to-do-js" class="btn" target="_blank">Ver código</a> <!--Link para o repositorio do github-->
                     </div>
                 </div>
-
-                <div class="project-card">
-                    <img src="assets/imgs/card-project-3.png" alt="Projeto website de vendas">
-                    <h3>Nome do projeto aqui</h3>
-                    <p>Descrição breve do projeto, oq vc fez, quais ferrramentas usou qual o problema e sua resolução</p>
-                    <div class="btn-project">
-                        <a href="#" class="btn">Ver projeto</a> <!-- aqui pode ser o link para o projeto ou para um preview que mostra mais detalhes -->
-                        <a href="#" class="btn">Ver código</a> <!--Link para o repositorio do github-->
+                <!-- 
+                    <div class="project-card">
+                        <img class="project-img" src="/assets/imgs/card-project-3.png" alt="Projeto website de vendas">
+                        <h3>Nome do projeto aqui</h3>
+                        <p>Descrição breve do projeto, oq vc fez, quais ferrramentas usou qual o problema e sua resolução</p>
+                        <div class="btn-project">
+                            <a href="#" class="btn" target="_blank">Ver projeto</a> 
+                            <a href="#" class="btn" target="_blank">Ver código</a>
+                        </div>
                     </div>
-                </div>
+                -->
             </div>
         </div>
 
@@ -115,12 +122,12 @@
                             <li><i class="devicon-ruby-plain-wordmark colored"></i></li>
                             <li><i class="devicon-github-original-wordmark"></i></li>
                             <li><i class="devicon-javascript-plain colored"></i></li>
-                            <li><i class="devicon-react-plain-wordmark colored"></i></li>
+                            <!-- <li><i class="devicon-react-plain-wordmark colored"></i></li> -->
                             <li><i class="devicon-bootstrap-plain-wordmark colored"></i></li>
-                            <li><i class="devicon-angular-plain colored"></i></li>
+                            <!-- <li><i class="devicon-angular-plain colored"></i></li> <-->
                             <li><i class="devicon-tailwindcss-original colored"></i></li>
                             <li><i class="devicon-sass-plain colored"></i></li>
-                            <li><i class="devicon-python-plain colored"></i></li>
+                            <!-- <li><i class="devicon-python-plain colored"></i></li> -->
                             <li><i class="devicon-rails-plain colored"></i></li>
                         </ul>
                     </div>
@@ -130,50 +137,73 @@
     </section> 
 
     <!-- SOBRE MIM -->
-    <section id="about-me" class="sobre">
-        <div class="container about-text">
-            <h2 class="section-title">Sobre mim</h2>
-            <p class="section-text">
-                Olá, eu me chamo Brenno Souza — sou desenvolvedor fullstak, com foco em criar 
-                interfaces funcionais e bem estruturadas, unindo estética e performance.
-                Trabalho com HTML, CSS, JavaScript, React, Git, PHP e Ruby, sempre buscando 
-                escrever código limpo e fácil de manter.
-            </p>
-            <p class="section-text">
-                Já trabalhei como freelancer, desenvolvendo uma página web para uma 
-                empresa de seguros, o que me deu experiencia, repertório criativo e 
-                olhar estratégico.Hoje aplico isso no desenvolvimento, criando produtos
-                mais acessíveis, claros e eficientes.
-            </p>
-            <p class="section-text">
-                Atualmente, estou cursando o curso de Analise e Desenv. de Sistemas. 
-                Em busca da minha primeira vaga de emprego. Continuo estudando e 
-                evoluindo nos meus projetos paralelos, sempre buscando aprender mais e
-                compartilhar o que sei de forma simples e prática.
+    <section id="about-me">
+        <div class="container about-reveal">
+            <h2>Sobre mim</h2>
+            <p class="about-text">
+                <span>
+                    Olá, eu me chamo Brenno Davi de Souza, sou desenvolvedor fullstack, com foco em criar 
+                    websites funcionais e bem estruturados, unindo estética e performance.
+                    Trabalho principalmente com HTML, CSS, JavaScript, Tailwind, Git, Ruby e Rails, sempre buscando 
+                    escrever código limpo e fácil de manter.
+                    <br>
+                    <br>
+                    Desde pequeno, sempre fui fascinado por tecnologia e muito curioso em entender como as coisas funcionam. 
+                    Com isso, comecei a estudar sobre programação por conta própria, por tutoriais online e experimentando com 
+                    pequenos projetos. Com o tempo, essa paixão deixou de ser apenas um hobby e se tornou meu foco de estudos, 
+                    onde posso unir criatividade e lógica para construir soluções digitais.
+                    <br>
+                    <br>
+                    Já trabalhei como freelancer, desenvolvendo páginas web para clientes 
+                    diversos, o que me deu experiência, repertório criativo e olhar
+                    estratégico. Hoje aplico isso no desenvolvimento, criando produtos
+                    mais acessíveis, claros e eficientes.
+                    <br>
+                    <br>
+                    Atualmente, estou fazendo faculdade de Análise e Desenvolvimento de Sistemas,
+                    sigo estudando e me dedicando a projetos paralelos, sempre buscando aprender mais 
+                    enquanto me preparo para conquistar minha primeira oportunidade no mercado
+                </span>
             </p>
         </div>
     </section>
 
     <!-- CONTATOS -->
-    <section id="contact" class="contato">
-        <div class="container contact-text">
-            <h2 class="section-title">Contatos</h2>
-            <p class="section-text">
+    <div id="contact" class="contact"> <!-- por que uma div e não uma section ? por que a propriedade section já está com um padrão de tamanho, e esse padrão fica mt grande para a  sesão de contato, decidi deixar assim por enquanto -->
+        <div class="container">
+            <h2 class="title-contact">Entre em Contato</h2>
+            <!-- <p class="section-text">
                 Estou aberto a novas oportunidades e desafios. Se você gostou do meu trabalho
                 e quer saber mais, entre em contato comigo através das redes sociais ou 
-                envie um email. Ficarei feliz em conversar sobre como posso contribuir para
+                envie uma mensagem abaixo. Ficarei feliz em conversar sobre como posso contribuir para
                 o seu projeto ou empresa.
-            </p>
-            <p class="section-text">
-                Vamos construir algo incrível juntos!
-            </p>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/brenno-modesto/"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
+            </p> <-- IGNORE -->
+            <form class="form-contact" onsubmit="sendMessage(event)">
+                <div>
+                    <p class="form-text">
+                        Vamos construir algo incrível juntos!
+                    </p>
+                </div>
+                <div class="form-group">
+                    <input placeholder="Nome" class="form-field" id="name" required autocomplete="off">
+                </div>
+
+                <div class="form-group">
+                    <textarea class="form-field" placeholder="Digite sua mensagem" rows="6" style="width: 600px;" id="message" required></textarea>
+                </div>
+
+                <button type="submit" class="button-form">Enviar por WhatsApp</button>
+            </form>
         </div>
-    </section>
+    </div>  
+
+    <!-- RODAPÉ -->
+    <footer class="footer"> 
+        <p class="text-footer">&copy; 2024 Brenno Souza. Todos os direitos reservados.</p>
+        <p class="text-footer">Desenvolvido por <strong class="strong-footer"><a href="https://github.com/brennodeveloper/" target="_blank">Brenno Souza</a></strong></p>
+    </footer>
     
     <!-- script -->
-     <script src="main.js" defer></script>
+     <script src="src/js/main.js" defer></script>
 </body>
 </html>
